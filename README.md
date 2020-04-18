@@ -1,2 +1,2 @@
-# A-Distributed-memory-Store-
+# A Distributed memory Store 
 A crude version of a distributed memory store systems which are indexed using a folder structure. It also has two other components to use different transactions and demonstrate the various features of the underlying distributed system (i.e. the database): i) A sensor application which simulates raw data values and feeds into the database at a given destination IP ii) A basic application which queries the database to get required data.
