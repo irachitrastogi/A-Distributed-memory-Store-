@@ -16,7 +16,7 @@ Components:
 
 List of functions used in the development process:
 
->>Middleware:
+**Middleware**:
 node_status_check(node_id)
 group_update(node_id, elected_leader_id):
 write_request(elected_leader_id):
@@ -24,7 +24,7 @@ read_request(elected_leader_id):
 listen_to_new_node(node_id):
 listen_to_user(user_id):
 
->>Process replicas:
+**Process replicas**:
 get_master_copy_from_leader(leader_id, node_id):
 read_from_file():
 node_start_up(node_id):
@@ -36,7 +36,7 @@ write_to_file():
 server_connect(node_id):
 listen_to_leader(leader_id, node_id):
 
->>Users:
+**Users**:
 user_write_request(user_id, value_to_be_written):
 user_read_request(user_id):
 
